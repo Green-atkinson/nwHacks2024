@@ -8,10 +8,13 @@
 - [Development Timeline](#development-timeline)
 - [Project Setup Overview](#project-setup-overview)
 
+<br>
+<br>
 ## Introduction
 
 This project is focused on ...  . This README provides an overview of the project and its components.
 
+<br>
 ## Project Overview
 
 The project comprises both frontend and backend components:
@@ -23,6 +26,8 @@ The project comprises both frontend and backend components:
   - 
 
 The core process involves ...
+
+<br>
 
 ## Technology Stack
 
@@ -47,12 +52,16 @@ The project utilizes a diverse technology stack:
   - Figma
   - Google Slides
 
+<br>
+
 ## Team and Responsibilities
 
 - John: 
 - Jenny: 
 - Aronn:
-- - Min: 
+- Min: 
+
+<br>
 
 ## Development Timeline
 
@@ -63,9 +72,13 @@ Here's an overview of the project development timeline:
 - Frontend development: ...
 - ....
 
+<br>
+<br>
 
+# Project Setup Overview
 
-### Project Setup Overview
+<br>
+
 ## Getting Started
 
 First, run the development server:
@@ -86,6 +99,8 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+<br>
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -94,6 +109,8 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+<br>
 
 ## Deploy on Vercel
 
