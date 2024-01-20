@@ -1,4 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Project Overview](#project-overview)
+- [Technology Stack](#technology-stack)
+- [Team and Responsibilities](#team-and-responsibilities)
+- [Development Timeline](#development-timeline)
+- [Computer Vision Repositories](#computer-vision-repositories)
+
+## Introduction
+
+This project is focused on ...  . This README provides an overview of the project and its components.
+
+## Project Overview
+
+The project comprises both frontend and backend components:
+
+- **Frontend**:
+  - 
+
+- **Backend**:
+  - 
+
+The core process involves ...
+
+## Technology Stack
+
+The project utilizes a diverse technology stack:
+
+- **File Management**
+    - Github
+    - Git
+    - Git Repository
+
+- **Frontend**:
+  - Next.js
+  - JavaScript
+  - React
+  - Tailwind CSS
+
+- **Backend**:
+  - 
+
+- **Presentation**:
+  - Canva
+  - Figma
+  - Google Slides
+
+## Team and Responsibilities
+
+- John: 
+- Jenny: 
+- Aronn:
+- - Min: 
+
+## Development Timeline
+
+Here's an overview of the project development timeline:
+
+- Integration and pitch deck: ...
+- Figma design: ...
+- Frontend development: ...
+- ....
+
+
+
 
 ## Getting Started
 
