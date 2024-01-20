@@ -6,7 +6,7 @@
 - [Technology Stack](#technology-stack)
 - [Team and Responsibilities](#team-and-responsibilities)
 - [Development Timeline](#development-timeline)
-- [Computer Vision Repositories](#computer-vision-repositories)
+- [Project Setup Overview](#project-setup-overview)
 
 ## Introduction
 
@@ -65,7 +65,7 @@ Here's an overview of the project development timeline:
 
 
 
-
+### Project Setup Overview
 ## Getting Started
 
 First, run the development server:
