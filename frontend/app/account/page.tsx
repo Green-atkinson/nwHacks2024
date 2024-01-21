@@ -152,6 +152,18 @@ export default function Account() {
           <div className="mx-auto max-w-screen-xl px-4 text-center">
             <h2 className="text-2xl font-bold text-gray-900">My Garden</h2>
             <img src="/images/dirt.png" className="max-w"/>
+            <div className="flex">
+              <button
+                className="block rounded-lg custom-brown px-6 py-3 mx-auto ml-20 mr-10 mt-7 w-full h-12 items-center text-xl font-bold border-brown underline transition hover:shadow-md focus:border-none focus:ring"
+                type="button">
+                Pick!
+              </button>
+              <button
+                className="block rounded-lg custom-brown px-6 py-3 mx-auto ml-10 mr-20 mt-7 w-full h-12 items-center text-xl font-bold border-brown underline transition hover:shadow-md focus:border-none focus:ring"
+                type="button">
+                Plant!
+              </button>
+            </div>
             {/* Add content for Section 2 */}
           </div>
         </div>
