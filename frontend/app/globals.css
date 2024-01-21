@@ -9,6 +9,11 @@
   --solid-background-rgb: 232, 247, 232;
 }
 
+@font-face {
+  font-family: 'Lilita One';
+  src: url('/nwhacks2024/frontend/app/Lilita_One/LilitaOne-Regular.ttf') format('ttf');
+}
+
 .custom-green{
   background-color: #E3F2E0;
 }
