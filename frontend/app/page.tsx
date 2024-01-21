@@ -40,6 +40,13 @@ export default function Home() {
         </form>
       </div>
 
+      <div className="flex justify-center w-full max-w-screen-lg overflow-x-auto">
+        <img src="../public/images/pumpkin.png" alt="Pumpkin" className="max-w-xs mr-4" />
+        <img src="/images/letuce.png" alt="Letuce" className="max-w-xs mr-4" />
+        <img src="/images/potato.png" alt="Potato" className="max-w-xs mr-4" />
+        <img src="/images/avocado.png" alt="Avocado" className="max-w-xs mr-4"/>
+      </div>
+
     </main>
   );
 }
