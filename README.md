@@ -48,7 +48,7 @@ The project utilizes a diverse technology stack:
   - Tailwind CSS for styling.
 
 - **Backend**:
-  - ode.js as the runtime environment.
+  - Node.js as the runtime environment.
   - Express.js for building the server.
   - MongoDB for database management.
   - Python for AI and machine learning algorithms.
