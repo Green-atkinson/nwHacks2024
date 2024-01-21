@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Account() {
   const fontURL = 'https://fonts.googleapis.com/css2?family=Lilita+One&display=swap';
   return (
     <div className="flex flex-col h-screen">
@@ -34,25 +34,14 @@ export default function Home() {
       <div className="flex flex-grow p-7">
         {/* Section 1 */}
         <div className="custom-green border-green py-5 flex-shrink-0 w-1/5 rounded-lg">
-          <div className="mx-auto max-w-screen-xl px-4 text-center">
-            <h2 className="text-2xl font-bold text-gray-900">Produce</h2>
-              <label
-                htmlFor="Username"
-                className="relative block rounded-md shadow-sm focus-within:border-green focus-within:ring-1 focus-within:border-green"
-              >
-                <input
-                  type="text"
-                  id="Username"
-                  className="peer border-none placeholder-transparent focus:outline-none focus:ring-0"
-                  placeholder="Username"
-                />
-
-                <span
-                  className="pointer-events-none absolute start-2.5 top-0 -translate-y-1/2 bg-white p-0.5 text-xs text-gray-700 transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-0 peer-focus:text-xs"
-                >
-                  Username
-                </span>
-              </label>
+          <div className="mx-auto max-w-screen-xl px-4">
+            <h2 className="text-2xl font-bold text-gray-900 mb-3 text-center">Produce</h2>  
+            <label htmlFor="UserEmail" className="block text-md font-medium text-gray-700"> Search </label>
+            <input
+              type="email"
+              id="UserEmail"
+              className="mt-1 w-full rounded-md border-gray-200 shadow-sm sm:text-sm"
+            />
             {/* Add content for Section 1 */}
           </div>
         </div>
