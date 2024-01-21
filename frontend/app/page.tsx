@@ -33,7 +33,7 @@ export default function Home() {
 
             <div className="mt-6 text-center">
               <a href="#" className="text-sm text-blue-500 hover:underline dark:text-blue-400">
-                Don’t have an account yet? Sign up
+                Don’t have an account yet? Sign up!
               </a>
             </div>
           </div>
