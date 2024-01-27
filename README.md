@@ -10,9 +10,12 @@
 <br>
 <br>
 
+
 ## Introduction
 
-This project, CookAI, is an innovative solution that combines the art of cooking with the intelligence of AI. Aimed at revolutionizing kitchen experiences, CookAI provides personalized recipe recommendations, ingredient analysis, and interactive cooking assistance. This README provides a comprehensive overview of the project, its architecture, and its components.
+CookAI is a platform that tackles food waste by utilizing AI to manage a digital garden (database) of your fridge's contents, offering the ability to track, add, or remove items, and generating personalized recipe suggestions based on available ingredients. This project aims to revolutionize kitchen experiences by providing ingredient analysis and interactive cooking assistance, addressing both global food waste issues and local food insecurity among UBC students.
+
+
 
 <br>
 
