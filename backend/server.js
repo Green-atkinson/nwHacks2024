@@ -1,27 +1,61 @@
-// Load .env variables 
-require('dotenv').config()
+// get read
+// post create
+// patch update
+// delete destroy
 
-// pull library
+// express
 const express = require('express')
-const app = express() // config server
+const app = express()
+const port = 5000
 
-// mongoose lib
-const mongoose = require('mongoose')
+//mongodb
+const { MongoClient } = require("mongodb");
 
-// connect database for website
-mongoose.connect(process.env.DATABASE_URL)
-const db = mongoose.connection
-db.on('error', (error) => console.error(error))
-db.once('open', () => console.log('Connected to Database'))
+const url =
+  "URL";
 
-// Server accept Json
-app.use(express.json())
+const db = new MongoClient(url);
 
-// Set up route
-const cookDbRouter = require('./routes/cookDb')
-app.use('/cookDb', cookDbRouter) // localhost:3000/cookDb
+var dbo = db.db("nwHacks");
 
-// Open server (nodemon)
-app.listen(3000, () => console.log('Server Started'))
+app.listen(port, () => {
+    console.log('server running on port 5000')
+})
+
+app.get("/api", (req, res) => {
+  res.json({ "user" : ["userOne", "userTwo", "userThree"] });
+})
 
 
+/* 
+//gonna be post
+//create the table (users, produce)
+app.get('/', async (req,res) => {
+    try {
+        db.connect();
+        await dbo.collection("users").insertOne({
+          user_name: "hacker2",
+          user_email: "email.com",
+          user_password: "1234",
+        });
+
+        await dbo.collection("produce").insertOne({
+            product_name: "apple",
+            product_condition: "fresh",
+        })
+      } catch (err) {
+        console.log(err.stack);
+      }
+})
+
+
+app.get('/delete', async (req, res) => {
+    try {
+        db.connect();
+        await dbo.collection("produce").deleteOne({
+            product_name: "apple",
+        });
+    } catch (err) {
+        console.log(err.stack);
+    }
+}) */
